@@ -1,0 +1,36 @@
+.page {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 32px 18px;
+}
+
+.page-header {
+  margin-bottom: 18px;
+}
+
+.page-title {
+  font-size: 2rem;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+.page-title-ar {
+  font-size: 1.55rem;
+  font-weight: 600;
+}
+
+.section-title {
+  margin: 26px 0 14px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .page-title {
+    font-size: 1.8rem;
+  }
+
+  .page-title-ar {
+    font-size: 1.3rem;
+  }
+}

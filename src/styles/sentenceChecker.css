@@ -1,0 +1,131 @@
+
+.checker-page {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  
+  .checker-header {
+    margin-bottom: 18px;
+  }
+  
+  .checker-intro {
+    max-width: 720px;
+  }
+  
+  .checker-input-card,
+  .checker-result-card,
+  .checker-message-card {
+    padding: 22px;
+    margin-bottom: 16px;
+  }
+  
+  .checker-input-card::before,
+  .checker-result-card::before,
+  .checker-message-card::before {
+    display: none;
+  }
+  
+  .checker-card-head {
+    margin-bottom: 16px;
+  }
+  
+  .checker-form {
+    display: grid;
+    gap: 12px;
+  }
+  
+  .checker-textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 14px 16px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: #fff;
+    color: var(--text);
+    font: inherit;
+    line-height: 1.7;
+    resize: vertical;
+  }
+  
+  .checker-textarea:focus {
+    outline: none;
+    border-color: var(--primary-light);
+    box-shadow: 0 0 0 3px rgba(90, 122, 86, 0.12);
+  }
+  
+  .checker-textarea::placeholder {
+    color: #9a9a9a;
+  }
+  
+  .checker-actions {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .checker-result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 18px;
+    flex-wrap: wrap;
+  }
+  
+  .checker-status {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 999px;
+    font-size: 0.92rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  
+  .checker-status-correct {
+    background: #edf7ef;
+    color: #1f6b3b;
+    border: 1px solid #cfe8d5;
+  }
+  
+  .checker-status-incorrect {
+    background: #fff3f1;
+    color: #b42318;
+    border: 1px solid #f1c7c2;
+  }
+  
+  .checker-result-grid {
+    display: grid;
+    gap: 14px;
+  }
+  
+  .checker-result-block {
+    padding: 14px 16px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: #fcfcfa;
+  }
+  
+  .checker-block-title {
+    margin-bottom: 8px;
+    font-size: 1rem;
+  }
+  
+  .checker-arabic-box {
+    margin: 0;
+    padding: 12px 14px;
+    border-radius: 10px;
+    background: var(--primary-soft);
+  }
+  
+  .checker-body-text {
+    margin: 0;
+    line-height: 1.7;
+  }
+  
+  @media (max-width: 640px) {
+    .checker-input-card,
+    .checker-result-card,
+    .checker-message-card {
+      padding: 16px;
+    }
+  }
