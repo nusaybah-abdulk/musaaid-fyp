@@ -22,17 +22,6 @@ This repo contains:
 - CSS styling files
 - This README file with setup instructions
 
-
-## Main Technologies
-- React
-- JS
-- Vite
-- Firebase Authentication
-- Firestore
-- Firebase Functions
-- OpenAI API
-- Vitest
-
 ## Project Structure
 ```
 ├── functions/              Firebase Cloud Function backend
