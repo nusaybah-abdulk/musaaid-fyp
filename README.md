@@ -34,27 +34,27 @@ This repo contains:
 - Vitest
 
 ## Project Structure
-functions/              # Firebase Cloud Function backend
-index.js              # Sentence checker function
-package.json          # Backend dependencies
-
-src/
-app/                  # React Router configuration
-routes.jsx
-components/           # Reusable UI components
-content/              # Lesson content and questions
-layouts/              # Shared layout
-lib/                  # Firebase setup + helper functions
-pages/                # Main pages
-styles/               # CSS files
-tests/                # Unit tests
-main.jsx              # React entry point
-
-index.html              # HTML entry point
-firebase.json           # Firebase config
-package.json            # Frontend dependencies
-vite.config.js          # Vite config
-README.md               # Project explanation
+```
+├── functions/              Firebase Cloud Function backend
+│   ├── index.js            Sentence checker function
+│   └── package.json        Backend dependencies
+├── src/
+│   ├── app/                Router configuration
+│   │   └── routes.jsx
+│   ├── components/         Reusable components
+│   ├── content/            Lesson content and questions
+│   ├── layouts/            Shared layout
+│   ├── lib/                Firebase setup and helper files
+│   ├── pages/              Main application pages
+│   ├── styles/             CSS files grouped by feature/page
+│   ├── tests/              Unit tests for helper files
+│   └── main.jsx            React application entry point
+├── index.html              HTML entry point
+├── firebase.json           Firebase configuration
+├── package.json            Frontend dependencies and scripts
+├── vite.config.js          Vite configuration
+└── README.md               Project guide
+```
 
 ## How to Run the Porject
 1. Install dependencies: npm install
